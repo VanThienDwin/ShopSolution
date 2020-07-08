@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopSolution.WebApp", "ShopSolution.WebApp\ShopSolution.WebApp.csproj", "{78F886B1-72AD-467A-974A-C757631DE244}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopSolution.Data", "ShopSolution.Data\ShopSolution.Data.csproj", "{BD716011-0E31-49B3-A477-270010DB9CEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopSolution.Application", "ShopSolution.Application\ShopSolution.Application.csproj", "{2F0E8AAD-C390-4F00-9AA2-7221A6B78231}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78F886B1-72AD-467A-974A-C757631DE244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F886B1-72AD-467A-974A-C757631DE244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F886B1-72AD-467A-974A-C757631DE244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F886B1-72AD-467A-974A-C757631DE244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD716011-0E31-49B3-A477-270010DB9CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD716011-0E31-49B3-A477-270010DB9CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD716011-0E31-49B3-A477-270010DB9CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD716011-0E31-49B3-A477-270010DB9CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0E8AAD-C390-4F00-9AA2-7221A6B78231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0E8AAD-C390-4F00-9AA2-7221A6B78231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0E8AAD-C390-4F00-9AA2-7221A6B78231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0E8AAD-C390-4F00-9AA2-7221A6B78231}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
